@@ -1,0 +1,17 @@
+{
+ "*.md": [
+   "markdownlint --fix"
+ ],
+  "*.{js,html}": [
+    "prettier --write",
+    "yarn lint"
+  ],
+ "*.scss": [
+   "prettier --write"
+ ],
+ "*.ts": [
+   "prettier --write",
+   "yarn lint",
+   "standardx --fix --parser @typescript-eslint/parser --plugin @typescript-eslint/eslint-plugin -e jest -e node -e es6"
+ ]
+}
