@@ -3,7 +3,7 @@
 [![Linter](https://github.com/rieset/puppeteer-heroku/workflows/Linter/badge.svg)](https://github.com/rieset/puppeteer-heroku/actions)
 [![Testing](https://github.com/rieset/puppeteer-heroku/workflows/Testing/badge.svg)](https://github.com/rieset/puppeteer-heroku/actions)
 
-Puppeteer prepared for deployment on the Heroku server
+Puppeteer for deployment on the Heroku server. Use to generate PDF files by url page. 
 
 ## Chrome Driver on Heroku
 
@@ -32,7 +32,7 @@ You need used variable `CHROME_BINARY_PATH` and `CHROME_DRIVER_PATH` on backend
 
 ## Development
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Based on [Nest](https://github.com/nestjs/nest) framework.
 
 ## Installation
 
